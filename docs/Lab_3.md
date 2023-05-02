@@ -118,7 +118,7 @@ c:\source\repos
 2.  Чтобы создать макет программы командной строки, введите в редакторе следующий код:
     
    
-    ```
+    ```c#
     Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ...\n");
     Console.WriteLine("Invoice: 1021\t\tComplete!");
     Console.WriteLine("Invoice: 1022\t\tComplete!");
@@ -273,8 +273,7 @@ Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
     
 3.  Теперь выполните код. В консоли вывода появятся следующие результаты:
     
-    OutputКопировать
-    
+     
     ```
     Hello Bob    
     ```
@@ -299,7 +298,7 @@ Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
     
 2.  Теперь выполните код. В консоли вывода появятся следующие результаты:
     
-    OutputКопировать
+   
     
     ```
     Hello Bob!    
@@ -320,7 +319,7 @@ Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
     
 2.  Теперь выполните код. Результат в консоли вывода должен быть таким же, даже если вы упростили код:
     
-    OutputКопировать
+
     
     ```
     Hello Bob!    
@@ -378,8 +377,7 @@ string message = $"{greeting} {firstName}!";
     
    
     ```
-    Hello Bob!
-    
+    Hello Bob!    
     ```
     
 
