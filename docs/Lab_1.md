@@ -40,7 +40,13 @@ Console.WriteLine("Hello World!");
 
 ### Запуск первого кода
 
-![](/img/debug.png)
+#### Создание нового проекта
+
+![](./img/create_project.png)
+
+![](./img/create_project_net_framework.png)
+
+![](./img/debug.png)
 
 1.  Использование зеленой кнопки "Выполнить"
     
