@@ -45,7 +45,7 @@
 
 1.  Добавьте следующую строку кода в редакторе:
       
-    ```cs
+    ```c#
     Console.WriteLine('b');    
     ```
     
@@ -62,7 +62,7 @@
 
 Если ввести следующий код:
 
-```cs
+```c#
 Console.WriteLine('Hello World!');
 ```
 
@@ -83,13 +83,13 @@ Console.WriteLine('Hello World!');
 1.  Добавьте следующую строку кода в редакторе:
     
     
-    ```cs
+    ```c#
     Console.WriteLine(123);    
     ```
     
 2.  Нажмите зеленую кнопку Выполнить, чтобы запустить код. В выходной консоли должен отобразиться следующий результат:
     
-    ```cs
+    ```c#
     123    
     ```
     
@@ -111,7 +111,7 @@ decimal        28-29 digits
 
 1.  Добавьте следующую строку кода в редакторе:
     
-    ```cs
+    ```c#
     Console.WriteLine(0.25F);    
     ```
     
@@ -128,7 +128,7 @@ decimal        28-29 digits
 3.  Добавьте следующую строку кода в редакторе:
 
     
-    ```cs
+    ```c#
     Console.WriteLine(2.625);
     
     ```
@@ -146,7 +146,7 @@ decimal        28-29 digits
 5.  Добавьте следующую строку кода в редакторе:
     
     
-    ```cs
+    ```c#
     Console.WriteLine(12.39816m);    
     ```
     
@@ -168,7 +168,7 @@ decimal        28-29 digits
 1.  Добавьте следующие строки кода в редакторе:
 
     
-    ```cs
+    ```c#
     Console.WriteLine(true);
     Console.WriteLine(false);    
     ```
@@ -236,7 +236,7 @@ Main вывод заключается в том, что существует м
 
 Чтобы создать новую переменную, необходимо сначала объявить тип данных переменной, а затем присвоить ей имя.
 
-```cs
+```c#
 string firstName;
 ```
 
@@ -271,7 +271,7 @@ string firstName;
 
 Вот несколько примеров объявлений переменных с использованием типов данных, о которые вы узнали на данный момент:
 
-```cs
+```c#
 char userOption;
 
 int gameScore;
@@ -305,7 +305,7 @@ bool processedCustomer;
     
 2.  В редакторе кода введите следующий код:
    
-    ```cs
+    ```c#
     string firstName;
     firstName = "Bob";    
     ```
@@ -322,7 +322,7 @@ bool processedCustomer;
 1.  Измените написанный код, чтобы он соответствовал следующему коду:
 
     
-    ```cs
+    ```c#
     string firstName;
     "Bob" = firstName;    
     ```
@@ -341,7 +341,7 @@ bool processedCustomer;
 1.  Измените написанный код, чтобы он соответствовал следующему коду:
 
     
-    ```cs
+    ```c#
     int firstName;
     firstName = "Bob";    
     ```
@@ -367,7 +367,7 @@ bool processedCustomer;
     
 
     
-    ```cs
+    ```c#
     string firstName;
     firstName = "Bob";
     Console.WriteLine(firstName);    
@@ -392,7 +392,7 @@ bool processedCustomer;
 1.  Измените написанный код, чтобы он соответствовал следующему коду:
 
     
-    ```cs
+    ```c#
     string firstName;
     firstName = "Bob";
     Console.WriteLine(firstName);
@@ -422,7 +422,7 @@ bool processedCustomer;
     
 
     
-    ```cs
+    ```c#
     string firstName;
     Console.WriteLine(firstName);    
     ```
@@ -443,7 +443,7 @@ bool processedCustomer;
 1.  Измените написанный код, чтобы он соответствовал следующему коду:
 
     
-    ```cs
+    ```c#
     string firstName = "Bob";
     Console.WriteLine(firstName);    
     ```
@@ -475,7 +475,7 @@ bool processedCustomer;
 
 Локальная переменная с неявным типом создается с помощью  `var`  ключевое слово за которой следует инициализация переменной. Пример:
 
-```cs
+```c#
 var message = "Hello world!";
 ```
 
@@ -486,7 +486,7 @@ var message = "Hello world!";
 Ознакомьтесь со следующим примером:
 
 
-```cs
+```c#
 var message = "Hello world!";
 ```
 
@@ -510,7 +510,7 @@ message = 10.703m;
 
 Важно понимать, что ключевое слово  `var`  использует значение, которое присваивается переменной при инициализации. При попытке использовать ключевое слово  `var`  без инициализации переменной вы получите ошибку во время компиляции кода.
 
-```cs
+```c#
 var message;
 ```
 
