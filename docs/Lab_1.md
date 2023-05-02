@@ -42,11 +42,9 @@ Console.WriteLine("Hello World!");
 
 #### Создание нового проекта
 
-![](./img/create_project.png)
-
-![](./img/create_project_net_framework.png)
-
-![](./img/debug.png)
+![](../img/create_project.png)
+![](../img/create_project_net_framework.png)
+![](../img/debug.png)
 
 1.  Использование зеленой кнопки "Выполнить"
     
